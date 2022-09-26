@@ -15,7 +15,9 @@ Including another URLconf
 """
 from django.contrib import admin
 from django.urls import path
+from joca_app1 import views as app1
 
 urlpatterns = [
     path('admin/', admin.site.urls),
+    path('view1', app1.primer)
 ]
