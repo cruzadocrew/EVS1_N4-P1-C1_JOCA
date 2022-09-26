@@ -19,5 +19,6 @@ from joca_app1 import views as app1
 
 urlpatterns = [
     path('admin/', admin.site.urls),
-    path('view1', app1.primer)
+    path('view1/', app1.primer),
+    path('view2/', app1.HorayFecha)
 ]
